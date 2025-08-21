@@ -1,0 +1,48 @@
+/* Background with overlay */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: url("output.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #f4f4f4;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Centered container */
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.5);
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #00ffae;
+}
+
+/* Output area */
+pre {
+  background: #111;
+  color: #00ff90;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: left;
+  white-space: pre-wrap;
+  line-height: 1.4;
+}
